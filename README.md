@@ -9,7 +9,7 @@
 <p>Una vez descargadas, vamos a configurar en el archivo app.xaml tres estilos, uno para cada fuente.
 </p>
 
-
+<pre>
 <code>
         <ResourceDictionary>
             <Style x:Key="Font-1" TargetType="Label">
@@ -43,19 +43,22 @@
             </Style>
         </ResourceDictionary>
 </code>
+</pre>
 
-Para usar el estilo lo llamos así desde nuestra vista con xamarin forms:
+<p>Para usar el estilo lo llamamos así desde nuestra vista con xamarin forms: </p>
 
+<pre>
 <code>
  <Label Text="Welcome to Xamarin.Forms!" Style="{StaticResource Font-1}" />
 </code>
+</pre>
 
-Dondé Font-1 es el valor que hemos creado, en nuestro caso tambien hemos creado Font-2 y Font-3.
+<p>Dondé Font-1 es el valor que hemos creado, en nuestro caso tambien hemos creado Font-2 y Font-3.</p>
 
-Como cada plataforma funciona de una forma distinta, así como la localización del archivo, fue necesario usar OnPlatform para aplicar la configuración de cada plataforma.
+<p>Como cada plataforma funciona de una forma distinta, así como la localización del archivo, fue necesario usar OnPlatform para aplicar la configuración de cada plataforma.</p>
 
 
-En Core la configuración está completa, ahora toca agregar los archivos en plataforma y agregar la configuración.
+<p>En Core la configuración está completa, ahora toca agregar los archivos en plataforma y agregar la configuración. </p>
 
 <h2>IOS</h2>
 <p>Creamos una nueva carpeta dentro de Resources con el nombre de Fonts, ahí dentro debemos agregar nuestros archivos de fuentes.  Fijarte que la acción de compilación sea “BundleResource”.
@@ -64,11 +67,11 @@ En Core la configuración está completa, ahora toca agregar los archivos en pla
 <p>El próximo paso es abrir al archivo Info.plish con el editor “Generic PList Editor”, para esto seleccionamos el archivo y hacemos clique con el 2º botón del ratón en la opción “abrir con…” en mi caso es la tercera opción.
 </p>
 
-<img src="img/editor_PList.png"/>
+<img src="img/editor_PList.PNG" />
 
 <p>Una vez abierto tenemos que agregar un nuevo elemento en la lista, hacemos clique en el icono “+” al final de la lista y escribimos “UIAppFonts”.</p>
 
-<img src="img/fonts_ios.png"/>
+<img src="img/fonts_ios.PNG"/>
 
 <p>El próximo paso será escribir el nombre de las fuentes, en este ejemplo voy a agregar 3 tipos de fonts. “Fonts/angrybirds-regular.ttf” , “Fonts/Fluo Gums.ttf”  y “Fonts/Powerful.ttf”. Donde Fonts es el nombre de la carpeta que hemos agregado las fuentes.
 </p>
@@ -88,7 +91,7 @@ En Core la configuración está completa, ahora toca agregar los archivos en pla
 
 </p>
 
-<img src="img/nombre_font.png"/>
+<img src="img/nombre_font.PNG"/>
 
 <h2>UWP</h2>
 
