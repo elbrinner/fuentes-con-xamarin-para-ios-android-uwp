@@ -9,7 +9,7 @@
 <p>Una vez descargadas, vamos a configurar en el archivo app.xaml tres estilos, uno para cada fuente.
 </p>
 
-<pre>
+
 <code>
         <ResourceDictionary>
             <Style x:Key="Font-1" TargetType="Label">
@@ -43,15 +43,14 @@
             </Style>
         </ResourceDictionary>
 </code>
-</pre>
+
 
 <p>Para usar el estilo lo llamamos así desde nuestra vista con xamarin forms: </p>
 
-<pre>
+
 <code>
  <Label Text="Welcome to Xamarin.Forms!" Style="{StaticResource Font-1}" />
 </code>
-</pre>
 
 <p>Dondé Font-1 es el valor que hemos creado, en nuestro caso tambien hemos creado Font-2 y Font-3.</p>
 
