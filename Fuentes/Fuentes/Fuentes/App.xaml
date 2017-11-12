@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fuentes.App">
+	<Application.Resources>
+
+        <ResourceDictionary>
+            <Style x:Key="Font-1" TargetType="Label">
+                <Setter Property="Label.FontFamily">
+                    <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.iOS>angrybirds-regular</OnPlatform.iOS>
+                        <OnPlatform.Android>Fonts/angrybirds-regular.ttf#Angrybirds</OnPlatform.Android>
+                        <OnPlatform.WinPhone>Assets/Fonts/angrybirds-regular.ttf#Angrybirds</OnPlatform.WinPhone>
+                    </OnPlatform>
+                </Setter>
+            </Style>
+
+            <Style x:Key="Font-2" TargetType="Label">
+                <Setter Property="Label.FontFamily">
+                    <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.iOS>Fluo Gums</OnPlatform.iOS>
+                        <OnPlatform.Android>Fonts/Fluo Gums.ttf#Fluo Gums</OnPlatform.Android>
+                        <OnPlatform.WinPhone>Assets/Fonts/Fluo Gums.ttf#Fluo Gums</OnPlatform.WinPhone>
+                    </OnPlatform>
+                </Setter>
+            </Style>
+
+            <Style x:Key="Font-3" TargetType="Label">
+                <Setter Property="Label.FontFamily">
+                    <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.iOS>Powerful</OnPlatform.iOS>
+                        <OnPlatform.Android>Fonts/Powerful.ttf#Powerful</OnPlatform.Android>
+                        <OnPlatform.WinPhone>Assets/Fonts/Powerful.ttf#Powerful</OnPlatform.WinPhone>
+                    </OnPlatform>
+                </Setter>
+                <Setter Property="TextColor" Value="#909080" />
+            </Style>
+        </ResourceDictionary>
+
+	</Application.Resources>
+</Application>
