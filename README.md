@@ -49,7 +49,7 @@
 
 <p>
 <code>
- <Label Text="Welcome to Xamarin.Forms!" Style="{StaticResource Font-1}" />
+ <Label Text="Welcome to Xamarin.Forms!" _Style="{StaticResource Font-1}" />
 </code>
 </p>
 <p>Dondé Font-1 es el valor que hemos creado, en nuestro caso tambien hemos creado Font-2 y Font-3.</p>
