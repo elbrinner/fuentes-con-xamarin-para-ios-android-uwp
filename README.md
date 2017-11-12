@@ -47,11 +47,11 @@
 
 <p>Para usar el estilo lo llamamos así desde nuestra vista con xamarin forms: </p>
 
-
+<p>
 <code>
  <Label Text="Welcome to Xamarin.Forms!" Style="{StaticResource Font-1}" />
 </code>
-
+</p>
 <p>Dondé Font-1 es el valor que hemos creado, en nuestro caso tambien hemos creado Font-2 y Font-3.</p>
 
 <p>Como cada plataforma funciona de una forma distinta, así como la localización del archivo, fue necesario usar OnPlatform para aplicar la configuración de cada plataforma.</p>
