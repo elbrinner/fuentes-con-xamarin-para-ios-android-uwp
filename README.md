@@ -11,37 +11,37 @@
 
 
 <code>
-        <ResourceDictionary>
-            <Style x:Key="Font-1" TargetType="Label">
-                <Setter Property="Label.FontFamily">
-                    <OnPlatform x:TypeArguments="x:String">
-                        <OnPlatform.iOS>angrybirds-regular</OnPlatform.iOS>
-                        <OnPlatform.Android>Fonts/angrybirds-regular.ttf#Angrybirds</OnPlatform.Android>
-                        <OnPlatform.WinPhone>Assets/Fonts/angrybirds-regular.ttf#Angrybirds</OnPlatform.WinPhone>
-                    </OnPlatform>
-                </Setter>
-            </Style>
-
-            <Style x:Key="Font-2" TargetType="Label">
-                <Setter Property="Label.FontFamily">
-                    <OnPlatform x:TypeArguments="x:String">
-                        <OnPlatform.iOS>Fluo Gums</OnPlatform.iOS>
-                        <OnPlatform.Android>Fonts/Fluo Gums.ttf#Fluo Gums</OnPlatform.Android>
-                        <OnPlatform.WinPhone>Assets/Fonts/Fluo Gums.ttf#Fluo Gums</OnPlatform.WinPhone>
-                    </OnPlatform
-                </Setter>
-            </Style>
-
-            <Style x:Key="Font-3" TargetType="Label">
-                <Setter Property="Label.FontFamily">
-                    <OnPlatform x:TypeArguments="x:String">
-                        <OnPlatform.iOS>Powerful</OnPlatform.iOS>
-                        <OnPlatform.Android>Fonts/Powerful.ttf#Powerful</OnPlatform.Android>
-                        <OnPlatform.WinPhone>Assets/Fonts/Powerful.ttf#Powerful</OnPlatform.WinPhone>
-                    </OnPlatform>
-                </Setter>
-            </Style>
-        </ResourceDictionary>
+  <p class="p1"><span class="s1">&lt;</span>ResourceDictionary<span class="s1">&gt;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span>&lt;<span class="s3">Style</span><span class="s4"> x</span>:<span class="s4">Key</span>="Font-1"<span class="s4"> TargetType</span>="Label"&gt;</p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span>&lt;<span class="s3">Setter</span><span class="s4"> Property</span>="Label.FontFamily"&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform</span><span class="s4"> x</span><span class="s1">:</span><span class="s4">TypeArguments</span><span class="s1">="x:String"&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.iOS</span><span class="s1">&gt;</span>angrybirds-regular<span class="s1">&lt;/</span><span class="s3">OnPlatform.iOS</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.Android</span><span class="s1">&gt;</span>Fonts/angrybirds-regular.ttf#Angrybirds<span class="s1">&lt;/</span><span class="s3">OnPlatform.Android</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.WinPhone</span><span class="s1">&gt;</span>Assets/Fonts/angrybirds-regular.ttf#Angrybirds<span class="s1">&lt;/</span><span class="s3">OnPlatform.WinPhone</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">OnPlatform</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">Setter</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">Style</span><span class="s1">&gt;</span></p>
+<p class="p4">&nbsp;</p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span>&lt;<span class="s3">Style</span><span class="s4"> x</span>:<span class="s4">Key</span>="Font-2"<span class="s4"> TargetType</span>="Label"&gt;</p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span>&lt;<span class="s3">Setter</span><span class="s4"> Property</span>="Label.FontFamily"&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform</span><span class="s4"> x</span><span class="s1">:</span><span class="s4">TypeArguments</span><span class="s1">="x:String"&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.iOS</span><span class="s1">&gt;</span>Fluo Gums<span class="s1">&lt;/</span><span class="s3">OnPlatform.iOS</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.Android</span><span class="s1">&gt;</span>Fonts/Fluo Gums.ttf#Fluo Gums<span class="s1">&lt;/</span><span class="s3">OnPlatform.Android</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.WinPhone</span><span class="s1">&gt;</span>Assets/Fonts/Fluo Gums.ttf#Fluo Gums<span class="s1">&lt;/</span><span class="s3">OnPlatform.WinPhone</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">OnPlatform</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">Setter</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">Style</span><span class="s1">&gt;</span></p>
+<p class="p4">&nbsp;</p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span>&lt;<span class="s3">Style</span><span class="s4"> x</span>:<span class="s4">Key</span>="Font-3"<span class="s4"> TargetType</span>="Label"&gt;</p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span>&lt;<span class="s3">Setter</span><span class="s4"> Property</span>="Label.FontFamily"&gt;</p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform</span><span class="s4"> x</span><span class="s1">:</span><span class="s4">TypeArguments</span><span class="s1">="x:String"&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.iOS</span><span class="s1">&gt;</span>Powerful<span class="s1">&lt;/</span><span class="s3">OnPlatform.iOS</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.Android</span><span class="s1">&gt;</span>Fonts/Powerful.ttf#Powerful<span class="s1">&lt;/</span><span class="s3">OnPlatform.Android</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;</span><span class="s3">OnPlatform.WinPhone</span><span class="s1">&gt;</span>Assets/Fonts/Powerful.ttf#Powerful<span class="s1">&lt;/</span><span class="s3">OnPlatform.WinPhone</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">OnPlatform</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">Setter</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="s1">&lt;/</span><span class="s3">Style</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; </span></span><span class="s1">&lt;/</span>ResourceDictionary<span class="s1">&gt;</span></p>
 </code>
 
 
@@ -49,7 +49,7 @@
 
 <p>
 <code>
-&lt;Label Text="Welcome to Xamarin.Forms!" Style='{StaticResource Font-1}' /&gt;
+&lt;Label Text="Welcome to Xamarin.Forms!" Style="{StaticResource Font-1}" /&gt;
 </code>
 </p>
 <p>Dondé Font-1 es el valor que hemos creado, en nuestro caso tambien hemos creado Font-2 y Font-3.</p>
